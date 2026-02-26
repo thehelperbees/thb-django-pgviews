@@ -39,7 +39,7 @@ tox
 
 ## Notes
 
-- **Low activity** (~1 commit per quarter). Sole THB contributor: AJ Botello.
-- **CI**: CircleCI with tox (Python 3.6-3.8, Django 2.0-3.1).
-- **Django compat**: Tested up to Django 3.1. Upstream README references Django 1.x-era patterns.
+- **Low activity** (~1 commit per quarter, as of Feb 2026). Sole THB contributor: AJ Botello.
+- **CI**: CircleCI with tox (Python 3.6-3.8, Django 2.0-3.1, as of Feb 2026).
+- **Django compat**: Tested up to Django 3.1 (as of Feb 2026). Upstream README references Django 1.x-era patterns.
 - Uses `psycopg2` directly for view DDL (not Django migrations -- views are `managed = False`).
